@@ -1,0 +1,27 @@
+
+
+
+
+
+body{
+    background: #8B6220;
+    color: #EECF6D;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+#container{
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+

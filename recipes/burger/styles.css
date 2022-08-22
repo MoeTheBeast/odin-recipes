@@ -1,15 +1,54 @@
 
 
 body{
-    background:#45050C ;
+    background: #8B6220 ;
     color: #EECF6D;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-shadow: 2px 2px 3px #8B6220;  
+    text-shadow: 2px 2px 10px black;  
+}
+
+img{
+    border-radius: 25px;
+}
+
+#heading-images{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 500px;
+   
+}
+
+.images{
+    height: inherit;
+    width: inherit;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid #45050C;
 }
 
 
 #time-list{
     line-height: 2rem;
+}
+
+
+#quick_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+#taco-img{
+    height: 200px;
+    width: 200px;
+    margin-left: 4rem;
+
 }
